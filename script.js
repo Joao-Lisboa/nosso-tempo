@@ -4,7 +4,7 @@ const CONFIG = {
   // 02/05/2025 às 19:44 (horário local; mês começa em 0 => 4 = maio)
   start: new Date(2025, 4, 2, 19, 44, 0),
   message: "Cada segundo ao seu lado vale a pena.",
-  footer: "Eu te amo",
+  footer: "Eu te amo minha princesa ❤️",
   // Coloque as fotos na pasta "photos" e liste aqui:
   photos: [
     { src: "photos/04.jpg", caption: "Onde tudo começou · 19:44", fit: "contain" },
