@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>João &amp; Marielly</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="stage" id="counter">
+      <p class="eyebrow" id="since"></p>
+      <h1 id="title">João &amp; Marielly</h1>
+
+      <div class="units">
+        <div class="unit"><span id="u-years">0</span><small>anos</small></div>
+        <div class="unit"><span id="u-months">0</span><small>meses</small></div>
+        <div class="unit"><span id="u-days">0</span><small>dias</small></div>
+        <div class="unit"><span id="u-hours">0</span><small>horas</small></div>
+        <div class="unit"><span id="u-minutes">0</span><small>minutos</small></div>
+        <div class="unit live"><span id="u-seconds">0</span><small>segundos</small></div>
+      </div>
+
+      <p class="totals">
+        <span><b id="t-days">0</b> dias</span>
+        <span><b id="t-hours">0</b> horas</span>
+        <span><b id="t-minutes">0</b> minutos</span>
+        <span><b id="t-seconds">0</b> segundos</span>
+      </p>
+
+      <p class="message" id="message"></p>
+      <a class="more" id="more" href="#gallery-block">Nossas fotos</a>
+    </section>
+
+    <section class="gallery-block" id="gallery-block">
+      <div class="gallery" id="gallery"></div>
+      <p class="footer" id="footer"></p>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button id="lb-close" aria-label="Fechar">×</button>
+    <img id="lb-img" alt="">
+    <p id="lb-cap"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
